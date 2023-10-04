@@ -26,8 +26,22 @@ ul{
 }
 button{
     max-width: 100px;
-    background-color:;
+    background-color:#3882F6;
+    border-radius: 4px;
 }
 .upperall{
-
+display: flex;
+background-color: #e6d7ff;
 }
+.uppertext{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+   
+.welcome{
+    margin: 0%;
+    padding: 0%;
+}
+  
+    

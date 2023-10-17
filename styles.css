@@ -32,11 +32,13 @@ button{
     max-width: 100px;
     background-color:#edb4eb;
     border-radius: 4px;
+    margin: 10px;
 }
 .upperall{
 display: flex;
 justify-content: space-around;
 align-items: center;
+margin: 0 10%;
 
 }
 .uppertext{
@@ -48,6 +50,7 @@ align-items: center;
 .welcome{
     margin: 0%;
     padding: 0%;
+    justify-content: space-evenly;
 }
   
 .random{
@@ -116,7 +119,7 @@ align-items: center;
 margin: 20px;
 }
     
-    
+    .
 
 
 

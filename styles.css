@@ -1,5 +1,9 @@
+body{
+    margin: 0%;
+    background-image: url(cats-images/j.avif);
+}
 .header{
-    background-color:  #89cff0;
+    background: rgba(246, 85, 147, 0.9);
     display: flex;
     justify-content: space-around;
     height: 50px;
@@ -26,12 +30,12 @@ ul{
 }
 button{
     max-width: 100px;
-    background-color:#3882F6;
+    background-color:#edb4eb;
     border-radius: 4px;
 }
 .upperall{
 display: flex;
-background-color: #e6d7ff;
+
 }
 .uppertext{
     display: flex;
@@ -43,8 +47,76 @@ background-color: #e6d7ff;
     margin: 0%;
     padding: 0%;
 }
-body{
+  
+.random{
+
+    display: flex;
+    justify-content: center;
+   
+}    
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  gap: 52px;
+  background: rgba(246, 85, 147, 0.8);
+ 
+}
+
+.typesimage{
+    width: 100px;
+    height: 100px;
+}
+.images{ 
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.quote{
+    padding: 100px;
     margin: 0%;
 }
-  
+.name{
+    text-align: end;
+}
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{ 
+    background-color: rgba(245, 11, 155, 0.849);
+   
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+   
+    height: 100px;
+    width: 65%;
+justify-content: space-around;
+align-items: center;    
+}
+
+.footer{
+    display: flex;
+    background: #eee;
+    justify-content: center;
+    padding: 10px;
+margin: 20px;
+}
     
+    
+
+
+
+
+
